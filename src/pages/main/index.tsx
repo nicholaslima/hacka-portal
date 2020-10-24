@@ -4,7 +4,7 @@ import React from 'react';
 import { Container } from './style';
 import { FcLike } from 'react-icons/fc';
 import { HiCheckCircle } from 'react-icons/hi';
-
+import { Link } from 'react-router-dom';
 
 const Main:React.FC = () => {
     return(
@@ -14,8 +14,11 @@ const Main:React.FC = () => {
                 <main>
                   
                   <header>
-                    <div className="logo"></div>
-                    <h2>Leões do Futuro</h2>
+                    <div className="divLogo">
+                        <div className="logo"></div>
+                        <h2>Leões do Futuro</h2>
+                    </div>
+                    <Link to="" className="">Sobre</Link>
                   </header>
                    
 
@@ -37,7 +40,7 @@ const Main:React.FC = () => {
                             <p>Acompanhe seu tratamento</p>
                         </li>
                     </ul>
-                    <button>Acesse o App</button>
+                    <Link to="" className="button">Acesse o App</Link>
                 </main>
 
             </Container>

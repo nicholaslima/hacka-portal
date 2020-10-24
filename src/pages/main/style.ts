@@ -31,12 +31,21 @@ export const Container = styled.div`
         header{
             display: flex;
             flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
             align-items: center;
             margin-bottom: 25px;
+            .divLogo{
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                align-items: center;
+            }
             h2{
                 margin: 20px;
                 font-weight: 800;
                 color:black;
+                box-shadow: 0 2;
     
             }
         }
@@ -50,7 +59,7 @@ export const Container = styled.div`
         justify-content:space-between;
     }
 
-    button{ 
+    .button{ 
         padding: 8px 8px;
         border-radius: 20px;
         border: 0px;
