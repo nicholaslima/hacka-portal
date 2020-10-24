@@ -30,7 +30,15 @@ export const Container = styled.div`
 
         header{
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 25px;
+            h2{
+                margin: 20px;
+                font-weight: 800;
+                color:black;
+    
+            }
         }
 
     }
