@@ -31,5 +31,16 @@ export default createGlobalStyle`
 
     a{ 
         text-decoration: none;
+        color: black;
+
+    }
+
+    .button{ 
+        padding: 8px 8px;
+        border-radius: 20px;
+        border: 0px;
+        background-color: #56cfe1;
+        color: #fff;
+        margin-top: 15px;
     }
 `;

@@ -83,6 +83,7 @@ export const Container = styled.div`
         li{
             display: flex;
             flex-direction: row;
+            align-items: center;
             width: 100%;
             border-radius: 15px;
             background-color: white;
@@ -90,7 +91,7 @@ export const Container = styled.div`
             color: black;
             margin-top: 10px;
             text-decoration: none;
-            p{
+            a{
                 margin-left: 15px;
             }
         }
