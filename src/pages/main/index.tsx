@@ -4,6 +4,9 @@ import React from 'react';
 import { Container } from './style';
 import { FcLike } from 'react-icons/fc';
 import { HiCheckCircle } from 'react-icons/hi';
+
+import { AiFillAndroid } from 'react-icons/ai';
+
 import { Link } from 'react-router-dom';
 
 const Main:React.FC = () => {
@@ -41,7 +44,7 @@ const Main:React.FC = () => {
                             <Link to="/">Acompanhe seu tratamento</Link>
                         </li>
                     </ul>
-                    <Link to="" className="button">Acesse o App</Link>
+                    <Link to="" className="button-App"><AiFillAndroid size={ 30 }></AiFillAndroid>  Baixe o App</Link>
                 </main>
 
             </Container>

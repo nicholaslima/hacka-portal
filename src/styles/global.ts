@@ -43,4 +43,13 @@ export default createGlobalStyle`
         color: #fff;
         margin-top: 15px;
     }
+
+    .button-App{
+        padding: 8px 8px;
+        border-radius: 5px;
+        border: 0px;
+        background-color: black;
+        color: #fff;
+        margin-top: 15px;
+    }
 `;
