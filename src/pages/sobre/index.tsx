@@ -20,9 +20,9 @@ const Sobre:React.FC = () => {
                 <img src={ Image } style={{ height: '275px'}} alt="imagem mãos unidas"/>
                 <h1 className="titulo">Sobre Nós</h1>
                 <p className="texto">O nosso projeto tem o objetivo de abastecer de dados 
-                    relevantes e detalhados sobre pacientes infantis com cancer
-                    oferecer um acompanhamento para os medicos de todo historico do paciente
-                    ,atravez de aplicativo acessivel aos pais e aos médicos</p>
+                    relevantes e detalhados sobre paciêntes infantis com câncer
+                    oferecer um acompanhamento para os médicos de todo histórico do paciente
+                    ,atravéz de um aplicativo acessivel aos pais e aos médicos</p>
                
             </Container>
         </>

@@ -33,7 +33,7 @@ const Main:React.FC = () => {
                     <ul>
                         <li>
                             <HiCheckCircle color={'#64dfdf'}></HiCheckCircle>
-                            <Link to="/">Faça um pré diagnostico</Link>
+                            <Link to="/">Faça um pré diagnóstico</Link>
                         </li>
                         <li>
                             <HiCheckCircle color={'#64dfdf'}></HiCheckCircle>
