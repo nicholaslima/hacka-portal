@@ -2,7 +2,6 @@
 
 <h1 align="center">Leões do Futuro - hackathon</h1>
 
-<iframe src="https://giphy.com/embed/6RcaDOZ0FX16NcSgBI" width="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/app-weatherapp-6RcaDOZ0FX16NcSgBI">via GIPHY</a></p>
 
 # Sobre
 
